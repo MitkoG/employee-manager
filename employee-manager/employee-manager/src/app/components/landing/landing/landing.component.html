@@ -1,0 +1,8 @@
+<div class="container-fluid container-table">
+  <h1 class="text-center">Employees</h1>
+  <div class="container-search">
+    <input class="search-input" type="text" (input)="filterSearchInEmployeesData($event.target.value)">
+  </div>
+  <!-- passing employees array to table component -->
+  <app-landing-table [employees]="employees"></app-landing-table>
+</div>

@@ -1,0 +1,23 @@
+.table-container{
+    align-self: auto;
+    width: 100%;
+}
+
+.table-container th{
+    border: 1px solid black;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.table-row{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.table-button{
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.table-button:hover{
+    color: white;
+}

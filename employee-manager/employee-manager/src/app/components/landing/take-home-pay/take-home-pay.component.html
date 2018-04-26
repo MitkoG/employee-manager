@@ -1,0 +1,20 @@
+<div class="container-wrapper">
+  <h1>{{employee.title}} {{employee.firstName}} {{employee.surname}}</h1>
+  <div class="container-fluid">
+    <h3>Take Home Pay after deductions: £{{annualTakeHomePay}}</h3>
+    <table class="table-container">
+        <tr class="table-row">
+          <th>Yearly</th>
+          <th>Monthly</th>
+          <th>Weekly</th>
+          <th>Daily</th>            
+        </tr>
+        <tr class="table-row">
+          <th>£{{annualTakeHomePay}}</th>
+          <th>£{{monthlyTakeHomePay}}</th>
+          <th>£{{weeklyTakeHomePay}}</th>
+          <th>£{{dailyTakeHomePay}}</th>  
+        </tr>
+      </table>
+  </div>
+</div>

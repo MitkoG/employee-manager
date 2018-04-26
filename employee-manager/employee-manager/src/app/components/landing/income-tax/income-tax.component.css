@@ -1,0 +1,13 @@
+.table-container th{
+    border: 1px solid black;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.table-row{
+    border: 1px solid black;
+    text-align: center;
+}
+
+h1 {
+    padding-left: 12px;
+}

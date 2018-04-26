@@ -1,0 +1,10 @@
+.blog-not-found-container{
+    min-height: 90vh;
+}
+
+.blog-not-found-header{
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+
+    font-size: 5vh;
+}
